@@ -1,0 +1,21 @@
+# JuicyJS — Requirements
+# ──────────────────────────────────────────────────────────────
+# JuicyJS uses ONLY the Python standard library.
+# No pip install is required to run juicyjs.py.
+#
+# Minimum Python version: 3.6+
+# Recommended:            3.8+
+#
+# ──────────────────────────────────────────────────────────────
+# OPTIONAL — install only if you want to beautify minified JS
+# before scanning (improves context line quality):
+#
+#   pip install jsbeautifier
+#
+# Usage after installing:
+#   js-beautify bundle.min.js -o bundle_pretty.js
+#   python3 juicyjs.py bundle_pretty.js
+# ──────────────────────────────────────────────────────────────
+
+# Uncomment the line below to install the optional beautifier:
+# jsbeautifier>=1.14.0
